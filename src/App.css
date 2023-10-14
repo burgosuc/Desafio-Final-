@@ -13,17 +13,23 @@ body {
   );
   font-family: "Inconsolata", monospace;
   font-weight: 500;
- height: 100%;
 }
 .Uno {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-areas: 
+  "header"
+  "main"
+  "footer";
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
   align-items: center;
   color: aliceblue;
 }
 
 .container {
-  margin-top: 20px;
+  margin-top: 10px;
+  grid-area: main;
+  width:80%
 }
 .card {
   margin-bottom: 25px;
@@ -41,7 +47,7 @@ body {
   margin: 0;
   padding: 20px;
   align-items: center;
-
+  grid-area: header;
 }
 .footer {
   display: flex;
@@ -51,7 +57,7 @@ body {
   width: 100vw;
   background-color: rgb(27, 33, 82);
   align-items: center;
- 
+  grid-area: footer;
 }
 .textFooter {
   text-align: center;
