@@ -1,4 +1,4 @@
-# Base de Datos Colaboradores React 1 "Desafío 3 Renderización dinámica de componentes"
+# Consumo de Apis con React"
 
 ## Academia Desafío Latam | Bootcamp Fullstack con JavaScript - G41
 
