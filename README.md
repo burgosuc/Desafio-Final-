@@ -2,12 +2,13 @@
 
 ## Academia Desafío Latam | Bootcamp Fullstack con JavaScript - G41
 
-### Desafio Final Modulo React 1:
+### Desafío Final Modulo React 1:
 
 
-- Comsumo de Apis. 
+- Consumo de Apis. 
 - Creación de Landing page.
 
  - [Video YouTube](https://youtu.be/dwYWSc1ShE0)
+ - Nota: ya se corrigió el problema que detecte durante la grabación del video que el footer se movía cuando se realizaba una búsqueda 
   
-# Desafio-Final-
+# Desafío-Final-
