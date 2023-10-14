@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(11, 89, 91);
+  background: radial-gradient(
+    circle,
+    rgba(11, 89, 91, 1) 0%,
+    rgba(24, 106, 167, 1) 100%,
+    rgba(0, 95, 255, 1) 100%
+  );
+  font-family: "Inconsolata", monospace;
+  font-weight: 500;
+ height: 100%;
+}
+.Uno {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aliceblue;
+}
+
+.container {
+  margin-top: 20px;
+}
+.card {
+  margin-bottom: 25px;
+}
+.card-title {
+  text-align: center;
+  text-transform: capitalize;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(27, 33, 82);
+  width: 100vw;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  width: 100vw;
+  background-color: rgb(27, 33, 82);
+  align-items: center;
+ 
+}
+.textFooter {
+  text-align: center;
+}
